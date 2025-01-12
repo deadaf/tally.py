@@ -2,13 +2,24 @@ from tally.types import TallyField
 
 
 class Tally:
-    def __init__(self, webhook_body: dict):
-        self.webhook_body = webhook_body
+    def __init__(self, webhook_dict: dict):
+        self.webhook_dict = webhook_dict
+        self.webhook_body = webhook_dict["data"]
 
     @property
     def form_name(self) -> str | None:
         """Get the name of the form from the tally webhook body."""
         return self.webhook_body.get("formName")
+
+    @property
+    def event_id(self) -> str | None:
+        """Get the ID of the event from the tally webhook body."""
+        return self.webhook_dict.get("eventId")
+
+    @property
+    def created_at(self) -> str | None:
+        """Get the timestamp of the event creation from the tally webhook body."""
+        return self.webhook_dict.get("createdAt")
 
     def get_field_value(self, field_type: TallyField, field_label: str, silent: bool = False):
         """
