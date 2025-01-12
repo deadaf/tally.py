@@ -22,7 +22,6 @@ class Tally:
 
         :raises ValueError: If the field is not found and silent is False.
         """
-        print(f"Debug: Start get_field_value for label: {field_label}")
 
         for field in self.webhook_body.get("fields", []):
             if field_type == TallyField.CHECKBOXES:
@@ -53,11 +52,13 @@ class Tally:
 
         return field.get("value")
 
-    def _get_checkbox_values(self, main_label: str) -> list[str]:
+    def _get_checkbox_values(self, main_label: str) -> list[str] | None:
         """
         Extract the 'text' values of selected checkboxes from the main checkbox field.
-        """
 
+        :param main_label: The label of the main checkbox field.
+        :return: A list of texts for selected checkboxes or None if no matching checkboxes are found.
+        """
         # Step 1: Find the main checkbox field
         for field in self.webhook_body.get("fields", []):
             if field.get("label") == main_label and field.get("type") == TallyField.CHECKBOXES.value:
@@ -72,14 +73,22 @@ class Tally:
                         if option_id in option_map:
                             selected_texts.append(option_map[option_id])
 
-                return selected_texts
+                return selected_texts if selected_texts else None  # Explicitly return None if no selections
 
         # Raise an error if the main checkbox field is not found
         raise ValueError(f"Main checkbox with label '{main_label}' not found.")
 
-    def _get_option_texts(self, field: dict) -> list[str]:
-        """Extract the text of selected options for fields like MULTIPLE_CHOICE, DROPDOWN, and MULTI_SELECT."""
+    def _get_option_texts(self, field: dict) -> list[str] | None:
+        """
+        Extract the text of selected options for fields like MULTIPLE_CHOICE, DROPDOWN, and MULTI_SELECT.
+
+        :param field: The field dictionary.
+        :return: A list of texts corresponding to selected options, or None if no value is provided.
+        """
         value_ids = field.get("value", [])
+        if value_ids is None:  # Handle case where value is None
+            return None
+
         options = field.get("options", [])
         return [option["text"] for option in options if option["id"] in value_ids]
 
