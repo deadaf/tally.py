@@ -2,7 +2,7 @@
 
 Tally.py is a lightweight Python wrapper designed to parse and process form responses from Tally.so. It simplifies handling webhook payloads by providing methods to extract form metadata, field values, and other key information.
 
-Installation
+## Installation
 
 You can install the package directly from GitHub:
 
