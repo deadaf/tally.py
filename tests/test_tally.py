@@ -12,10 +12,10 @@ def webhook_response():
         return json.load(f)["data"]
 
 
-def test_get_form_name(webhook_response):
+def test_form_name(webhook_response):
     """Test that the form name is correctly retrieved."""
     tally = Tally(webhook_response)
-    assert tally.get_form_name() == "Test  Form", "Form name mismatch"
+    assert tally.form_name == "Test  Form", "Form name mismatch"
 
 
 @pytest.mark.parametrize(
@@ -76,5 +76,5 @@ def test_silent_mode(webhook_response):
 def test_invalid_webhook_body():
     """Test behavior when an invalid webhook body is provided."""
     tally = Tally({})
-    assert tally.get_form_name() is None
+    assert tally.form_name is None
     assert tally.get_field_value(TallyField.TEXT, "Some Label", silent=True) is None

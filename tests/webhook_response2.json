@@ -1,0 +1,363 @@
+{
+    "eventId": "b3de444e-3a8e-473e-82e2-c00fc153e071",
+    "eventType": "FORM_RESPONSE",
+    "createdAt": "2025-01-12T15:58:26.747Z",
+    "data": {
+        "responseId": "O6XOpg",
+        "submissionId": "O6XOpg",
+        "respondentId": "xlppPG",
+        "formId": "w71N0A",
+        "formName": "📞  Post-Call Form V2  ",
+        "createdAt": "2025-01-12T15:58:05.000Z",
+        "fields": [
+            {
+                "key": "question_07xojA_8e6024e9-2f7c-4291-852d-4fd65c203e57",
+                "label": "booked_id",
+                "type": "HIDDEN_FIELDS",
+                "value": null
+            },
+            {
+                "key": "question_07xojA_7126487e-e3f6-408d-9d8b-87f1d552b9ea",
+                "label": "setter_id",
+                "type": "HIDDEN_FIELDS",
+                "value": null
+            },
+            {
+                "key": "question_07xojA_020093db-b30f-4426-97e1-fa84969a6336",
+                "label": "closer_id",
+                "type": "HIDDEN_FIELDS",
+                "value": null
+            },
+            {
+                "key": "question_07xojA_a7946fa7-33a0-4a7e-acdc-a386b79686ed",
+                "label": "opportunity_id",
+                "type": "HIDDEN_FIELDS",
+                "value": null
+            },
+            {
+                "key": "question_07xojA_5063a9c2-23c8-4fdc-92ac-daf1ee88d04f",
+                "label": "pcf_db_id",
+                "type": "HIDDEN_FIELDS",
+                "value": null
+            },
+            {
+                "key": "question_07xojA_89683999-fedf-420d-9d5e-733dd3ab4518",
+                "label": "customer_name",
+                "type": "HIDDEN_FIELDS",
+                "value": null
+            },
+            {
+                "key": "question_07xojA_dd68f6f2-5bfa-468d-a631-d53e94f7a52d",
+                "label": "customer_email",
+                "type": "HIDDEN_FIELDS",
+                "value": null
+            },
+            {
+                "key": "question_zNqWQg",
+                "label": "Customer Name",
+                "type": "INPUT_TEXT",
+                "value": "Rohit"
+            },
+            {
+                "key": "question_54zEqQ",
+                "label": "Customer Email",
+                "type": "INPUT_TEXT",
+                "value": "rohit@rohit.com"
+            },
+            {
+                "key": "question_QM0op1",
+                "label": "set_by_setter",
+                "type": "MULTIPLE_CHOICE",
+                "value": [
+                    "0a6077c1-3749-4099-8b86-340314e6a865"
+                ],
+                "options": [
+                    {
+                        "id": "0a6077c1-3749-4099-8b86-340314e6a865",
+                        "text": "Yes"
+                    },
+                    {
+                        "id": "7850a805-a5e1-4ba2-804e-7b312d70c596",
+                        "text": "No"
+                    }
+                ]
+            },
+            {
+                "key": "question_9XlNPX",
+                "label": "live_transfer_call",
+                "type": "MULTIPLE_CHOICE",
+                "value": [
+                    "e69dd894-bd16-4f33-bfd6-d803f988bb10"
+                ],
+                "options": [
+                    {
+                        "id": "e69dd894-bd16-4f33-bfd6-d803f988bb10",
+                        "text": "Yes"
+                    },
+                    {
+                        "id": "839afd4d-bc7c-4d84-b175-7ef00b744777",
+                        "text": "No"
+                    }
+                ]
+            },
+            {
+                "key": "question_dN6Q2V",
+                "label": "Call Outcome",
+                "type": "MULTIPLE_CHOICE",
+                "value": [
+                    "3f6d2203-82d2-4dc7-b72b-b5cec5743989"
+                ],
+                "options": [
+                    {
+                        "id": "b1991f22-c5d2-4281-bc10-c7a7373d6c2d",
+                        "text": "No Show / Cancelled"
+                    },
+                    {
+                        "id": "3f6d2203-82d2-4dc7-b72b-b5cec5743989",
+                        "text": "Showed"
+                    },
+                    {
+                        "id": "a1623eaa-e35c-4f3b-b515-acdb503f6f64",
+                        "text": "Pending Payment"
+                    },
+                    {
+                        "id": "a05e7419-e158-4500-b0c5-37016332852a",
+                        "text": "Re-Scheduled"
+                    }
+                ]
+            },
+            {
+                "key": "question_YRQVzv",
+                "label": "sales_objection",
+                "type": "CHECKBOXES",
+                "value": [
+                    "75f35045-8c3a-4a44-b164-b7fe124c0244"
+                ],
+                "options": [
+                    {
+                        "id": "c3bf3f9a-daeb-4398-b1eb-797600ec015f",
+                        "text": "Cannot Afford"
+                    },
+                    {
+                        "id": "d496a62c-06ec-4e91-9369-f600b03f3a7e",
+                        "text": "Not Ready"
+                    },
+                    {
+                        "id": "61c0a98b-f4af-49a1-95ca-9fa176914567",
+                        "text": "Fear"
+                    },
+                    {
+                        "id": "05e5d8a9-735f-49e4-8329-80c995a07250",
+                        "text": "Age"
+                    },
+                    {
+                        "id": "918e03bf-5773-40c1-af9c-bf528290bca6",
+                        "text": "Life"
+                    },
+                    {
+                        "id": "617168a6-fa8a-4ab7-a09d-20a12a02d4b9",
+                        "text": "Value Issue"
+                    },
+                    {
+                        "id": "75f35045-8c3a-4a44-b164-b7fe124c0244",
+                        "text": "None (Closed)"
+                    }
+                ]
+            },
+            {
+                "key": "question_YRQVzv_c3bf3f9a-daeb-4398-b1eb-797600ec015f",
+                "label": "sales_objection (Cannot Afford)",
+                "type": "CHECKBOXES",
+                "value": false
+            },
+            {
+                "key": "question_YRQVzv_d496a62c-06ec-4e91-9369-f600b03f3a7e",
+                "label": "sales_objection (Not Ready)",
+                "type": "CHECKBOXES",
+                "value": false
+            },
+            {
+                "key": "question_YRQVzv_61c0a98b-f4af-49a1-95ca-9fa176914567",
+                "label": "sales_objection (Fear)",
+                "type": "CHECKBOXES",
+                "value": false
+            },
+            {
+                "key": "question_YRQVzv_05e5d8a9-735f-49e4-8329-80c995a07250",
+                "label": "sales_objection (Age)",
+                "type": "CHECKBOXES",
+                "value": false
+            },
+            {
+                "key": "question_YRQVzv_918e03bf-5773-40c1-af9c-bf528290bca6",
+                "label": "sales_objection (Life)",
+                "type": "CHECKBOXES",
+                "value": false
+            },
+            {
+                "key": "question_YRQVzv_617168a6-fa8a-4ab7-a09d-20a12a02d4b9",
+                "label": "sales_objection (Value Issue)",
+                "type": "CHECKBOXES",
+                "value": false
+            },
+            {
+                "key": "question_YRQVzv_75f35045-8c3a-4a44-b164-b7fe124c0244",
+                "label": "sales_objection (None (Closed))",
+                "type": "CHECKBOXES",
+                "value": true
+            },
+            {
+                "key": "question_DKN0vE",
+                "label": "payment_structure",
+                "type": "CHECKBOXES",
+                "value": [
+                    "9544924a-2e6c-410f-bd65-1b6a66ad7126"
+                ],
+                "options": [
+                    {
+                        "id": "9544924a-2e6c-410f-bd65-1b6a66ad7126",
+                        "text": "PIF"
+                    },
+                    {
+                        "id": "2e5fc1a8-0454-4d0d-90d1-77c71e735029",
+                        "text": "Split"
+                    },
+                    {
+                        "id": "4b63081c-454a-4adc-aa88-cdd96c98f24e",
+                        "text": "Crypto PIF"
+                    },
+                    {
+                        "id": "8228d285-377d-44db-8ce8-daedb4fc9f6b",
+                        "text": "Crypto Split"
+                    },
+                    {
+                        "id": "75927570-b8fd-4004-b889-971a9da4d2bc",
+                        "text": "Klarna / Afterpay"
+                    }
+                ]
+            },
+            {
+                "key": "question_DKN0vE_9544924a-2e6c-410f-bd65-1b6a66ad7126",
+                "label": "payment_structure (PIF)",
+                "type": "CHECKBOXES",
+                "value": true
+            },
+            {
+                "key": "question_DKN0vE_2e5fc1a8-0454-4d0d-90d1-77c71e735029",
+                "label": "payment_structure (Split)",
+                "type": "CHECKBOXES",
+                "value": false
+            },
+            {
+                "key": "question_DKN0vE_4b63081c-454a-4adc-aa88-cdd96c98f24e",
+                "label": "payment_structure (Crypto PIF)",
+                "type": "CHECKBOXES",
+                "value": false
+            },
+            {
+                "key": "question_DKN0vE_8228d285-377d-44db-8ce8-daedb4fc9f6b",
+                "label": "payment_structure (Crypto Split)",
+                "type": "CHECKBOXES",
+                "value": false
+            },
+            {
+                "key": "question_DKN0vE_75927570-b8fd-4004-b889-971a9da4d2bc",
+                "label": "payment_structure (Klarna / Afterpay)",
+                "type": "CHECKBOXES",
+                "value": false
+            },
+            {
+                "key": "question_lqyVlX",
+                "label": "notes_for_setter",
+                "type": "TEXTAREA",
+                "value": "NA"
+            },
+            {
+                "key": "question_Rd08BQ",
+                "label": "customer_info",
+                "type": "TEXTAREA",
+                "value": "NA"
+            },
+            {
+                "key": "question_oDylVN",
+                "label": "customer_respond_to_calls",
+                "type": "MULTIPLE_CHOICE",
+                "value": null,
+                "options": [
+                    {
+                        "id": "80f7db41-0b8f-41eb-acab-36c18ab84032",
+                        "text": "Yes"
+                    },
+                    {
+                        "id": "67062ad2-0bd7-4eed-a18f-0e21c6bb0283",
+                        "text": "No"
+                    }
+                ]
+            },
+            {
+                "key": "question_GKzYBO",
+                "label": "reason_for_noshow",
+                "type": "TEXTAREA",
+                "value": null
+            },
+            {
+                "key": "question_Olz8BM",
+                "label": "If this customer has no-showed / cancelled more than twice, check this box to prevent them from ever booking again:",
+                "type": "CHECKBOXES",
+                "value": null,
+                "options": [
+                    {
+                        "id": "e28364f0-8426-4794-830c-5e2708c721dc",
+                        "text": "I want to blacklist this customer."
+                    }
+                ]
+            },
+            {
+                "key": "question_Olz8BM_e28364f0-8426-4794-830c-5e2708c721dc",
+                "label": "If this customer has no-showed / cancelled more than twice, check this box to prevent them from ever booking again: (I want to blacklist this customer.)",
+                "type": "CHECKBOXES",
+                "value": null
+            },
+            {
+                "key": "question_Vj0o16",
+                "label": "who_rescheduled",
+                "type": "MULTIPLE_CHOICE",
+                "value": null,
+                "options": [
+                    {
+                        "id": "31202d6d-b9e7-48d2-ada3-f19bf269aa86",
+                        "text": "Customer"
+                    },
+                    {
+                        "id": "e92b9374-efd4-486f-8caf-c8df0e805470",
+                        "text": "Closer"
+                    }
+                ]
+            },
+            {
+                "key": "question_PD68Bx",
+                "label": "reason_for_reschedule",
+                "type": "TEXTAREA",
+                "value": null
+            },
+            {
+                "key": "question_E5X8b2",
+                "label": "If this customer has re-scheduled more than twice, check this box to prevent them from ever booking again:",
+                "type": "CHECKBOXES",
+                "value": null,
+                "options": [
+                    {
+                        "id": "9d646044-2af3-4c37-b838-f534f865c778",
+                        "text": "I want to blacklist this customer."
+                    }
+                ]
+            },
+            {
+                "key": "question_E5X8b2_9d646044-2af3-4c37-b838-f534f865c778",
+                "label": "If this customer has re-scheduled more than twice, check this box to prevent them from ever booking again: (I want to blacklist this customer.)",
+                "type": "CHECKBOXES",
+                "value": null
+            }
+        ]
+    }
+}
